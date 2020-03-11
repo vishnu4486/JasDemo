@@ -15,4 +15,10 @@ public class MyController {
 		Employee emp = new Employee(1, "jas");
 		return emp;
 	}
+	@GetMapping("/user")
+	public Employee showemp() {
+		
+		Employee emp =new Employee(10, "FHJSDF");
+		return emp;
+	}
 }
